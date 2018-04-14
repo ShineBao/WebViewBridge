@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initWebView() {
         mWebView.loadUrl("file:///android_asset/test.html");
-
-        Toast.makeText(this, "已加载页面", Toast.LENGTH_SHORT).show();
     }
 
     @Override
